@@ -11,6 +11,26 @@ body{
     padding: 50px;
     align-items: center;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+.cadastramento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(114, 111, 111);
+    box-shadow: 0 0 5px 1px black;
+    padding: 2rem;
+    border-radius: 5px;
+    
+}
 input{
     margin: 15px auto;
     width: 200px;
@@ -22,11 +42,12 @@ input{
 
 
 table{
-    margin-top: 18px ;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     background-color: white;
     position: relative;
-    
+   
    
 }
 tr{
